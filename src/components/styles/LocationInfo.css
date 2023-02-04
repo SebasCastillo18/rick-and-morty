@@ -1,0 +1,26 @@
+.location_title {
+    text-align: center;
+    margin:14px 0;
+    color:white;
+    font-size:22px;
+}
+
+.location_list {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.location_item {
+    color: white;
+    text-align: center;
+    padding: 6px;
+}
+
+.location_item span {
+    font-weight: bold;
+
+
+}

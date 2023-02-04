@@ -1,0 +1,37 @@
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+form input[type="text"] {
+    background: rgb(13, 61, 109);
+    color: white;
+    width: 800px;
+    font-size: 15px;
+    text-align: center;
+    padding:0;
+}
+
+.resident_button {
+    background-color: rgb(14, 61, 109);
+    color: white;
+    padding: 3px;
+    margin: 0 5px;
+    border: none;
+    font-size: 18px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    cursor: pointer;
+}
+
+.resident_button:hover {
+    background-color: rgb(19, 122, 226);
+
+}

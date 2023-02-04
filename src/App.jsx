@@ -40,10 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="container_image">
 
-      <img className="image_app" src="/public/fondo.webp" alt="rick and morty" />
-      </div>
       <h2 className="title_app">Rick and Morty Wiki</h2>
       <ResidentForm handleSubmit={handleSubmit}/>
       <LocationInfo location={location} />

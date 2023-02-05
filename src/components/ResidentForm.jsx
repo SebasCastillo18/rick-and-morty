@@ -8,6 +8,7 @@ const ResidentForm = ({handleSubmit}) => {
             <button className="resident_button">Search</button>
 
         </form>
+        
     )
 }
 

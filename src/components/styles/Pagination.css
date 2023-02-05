@@ -1,9 +1,12 @@
 .pagination_list {
-    display: flex;
-    flex-direction: row;
-
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     justify-items: center;
-    justify-content: center;
+   
+
+
+
 
 }
 
@@ -22,5 +25,5 @@
 
 .pagination_item:hover {
     background-color: rgb(54, 117, 255);
-  
+
 }

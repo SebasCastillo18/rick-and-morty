@@ -1,10 +1,11 @@
 form {
+    width:90%;
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    justify-content: center;
+    gap:5px;
+    justify-content:center;
     justify-items: center;
-    margin-top: 30px;
+    margin: 30px auto;
 }
 
 form input[type="text"] {
@@ -20,7 +21,6 @@ form input[type="text"] {
     background-color: rgb(14, 61, 109);
     color: white;
     padding: 3px;
-    margin: 0 5px;
     border: none;
     font-size: 18px;
     border-radius: 9px;
